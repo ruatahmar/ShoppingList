@@ -1,36 +1,25 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="utf-8">
     <script src="shoppingList.js" defer></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shopping list example</title>
-    <style>
-      li {
-        margin-bottom: 10px;
-      }
-
-      li button {
-        font-size: 8px;
-        margin-left: 20px;
-        color: #666;
-      }
-    </style>
+    <title>To do List</title>
   </head>
   <body>
 
-    <h1>My shopping list</h1>
-
-    <div>
-      <label for="item">Enter a new item:</label>
-      <input type="text" name="item" id="item">
-      <button>Add item</button>
+    <h1 class="topHead">To Do List Manager</h1>
+    <div class="mainApp">
+    <div class="inputPart">
+      <input type="text" name="item" id="item" placeholder="Enter a new item">
+      <button class="addButton">+</button>
     </div>
 
     <ul>
 
     </ul>
-
+    </div>
     <script>
 
     </script>
